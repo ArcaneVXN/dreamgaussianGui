@@ -93,6 +93,7 @@ Main repo: [Your Main Repository URL Here]
 GitHub Tags
 3D-generation DreamGaussian GUI Tkinter OBJ-export Voxel MagicaVoxel AI-3D Text-to-3D
 
+<img width="2048" height="1015" alt="image" src="https://github.com/user-attachments/assets/c3901dbd-876c-4deb-995f-47640d6639d7" />
 
 
 
