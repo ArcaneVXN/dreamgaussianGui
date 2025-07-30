@@ -1,3 +1,114 @@
+DreamGaussian 3D Asset Generator (GUI Fork)
+A Tkinter-based graphical user interface for generating 3D assets using the DreamGaussian pipeline.
+Easily create OBJ meshes and textures from text or image prompts. Includes optional voxel export (experimental).
+
+
+✅ Features
+Prompt Inputs:
+
+Text-based 3D generation.
+
+Image-guided 3D generation.
+
+Output Options:
+
+Mesh (.obj)
+
+Texture (.png)
+
+Both
+
+Experimental Voxel Export:
+
+Export to MagicaVoxel format (.vox)
+⚠ Currently unstable and not fully functional.
+
+Config Presets:
+
+Auto-detect or manual selection.
+
+3D Preview:
+
+Live preview using Trimesh.
+
+Job Queue:
+
+Queue multiple generations for batch creation.
+
+⚠ Known Issues
+Voxel export (obj → .vox) requires:
+
+obj2vox installed via pip install obj2vox.
+
+MagicaVoxel path configured manually in code.
+
+Still under development.
+
+DreamGaussian must be installed and functional in your environment.
+
+Requirements
+Python 3.8+
+
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install pillow trimesh numpy obj2vox
+Clone or install DreamGaussian repository.
+
+MagicaVoxel (optional for voxel mode).
+
+Usage
+bash
+Copy
+Edit
+python dream_gui.py
+Enter text prompt and/or select image prompt.
+
+Configure:
+
+Output type (Mesh, Texture, Both)
+
+Voxel export (optional)
+
+Output folder & config preset
+
+Click Generate.
+
+Preview in GUI or open full 3D viewer.
+
+Roadmap
+✔ OBJ + texture export
+⏳ Reliable voxel export
+⏳ Async job progress bar
+⏳ Texture atlas pipeline
+
+Screenshot
+
+🔗 Fork Info
+This GUI is a fork to simplify usage of DreamGaussian for quick asset generation.
+Main repo: [Your Main Repository URL Here]
+
+GitHub Tags
+3D-generation DreamGaussian GUI Tkinter OBJ-export Voxel MagicaVoxel AI-3D Text-to-3D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # DreamGaussian
 
 This repository contains the official implementation for [DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation](https://arxiv.org/abs/2309.16653).
